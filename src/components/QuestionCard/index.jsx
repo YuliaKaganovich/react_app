@@ -1,1 +1,1 @@
-export { QuestoinCard } from './QuestoinCard';
+export { QuestionCard } from './QuestionCard';

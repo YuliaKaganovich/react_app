@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "../Button/Button";
 import cls from "./QuestionCard.module.css";
 
-const QuestionCard = ({ card }) => {
+export const QuestionCard = ({ card }) => {
   const navigate = useNavigate();
 
   return (
@@ -24,4 +24,4 @@ const QuestionCard = ({ card }) => {
   );
 };
 
-export default QuestionCard;
+
